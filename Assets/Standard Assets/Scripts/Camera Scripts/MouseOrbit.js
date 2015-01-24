@@ -7,8 +7,6 @@ var ySpeed = 120.0;
 var yMinLimit = -20;
 var yMaxLimit = 80;
 
-var mouseOffset = 50;
-
 private var x = 0.0;
 private var y = 0.0;
 
@@ -26,7 +24,7 @@ function Start () {
 
 function LateUpdate () {
     //if (target) {
-        x += (Input.GetAxis("Mouse X")-mouseOffset) * xSpeed * 0.02;
+        x += Input.GetAxis("Mouse X") * xSpeed * 0.02;
         y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02;
  		
  		y = ClampAngle(y, yMinLimit, yMaxLimit);
