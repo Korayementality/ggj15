@@ -1,0 +1,83 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+newmtl wire_000000000
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl _0___Default
+Ka  1.0 0.7 0.2
+Kd  1.0 0.7 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_088144225
+Ka  0.3 0.6 0.9
+Kd  0.3 0.6 0.9
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_087225087
+Ka  0.3 0.9 0.3
+Kd  0.3 0.9 0.3
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_127063063
+Ka  0.5 0.2 0.2
+Kd  0.5 0.2 0.2
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_255223127
+Ka  1.0 0.9 0.5
+Kd  1.0 0.9 0.5
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_000255255
+Ka  0.0 1.0 1.0
+Kd  0.0 1.0 1.0
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_066076038
+Ka  0.3 0.3 0.1
+Kd  0.3 0.3 0.1
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_255127191
+Ka  1.0 0.5 0.7
+Kd  1.0 0.5 0.7
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_127079063
+Ka  0.5 0.3 0.2
+Kd  0.5 0.3 0.2
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+# EOF
