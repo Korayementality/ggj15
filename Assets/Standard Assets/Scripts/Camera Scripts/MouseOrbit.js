@@ -1,4 +1,4 @@
-var target : Transform;
+//var target : Transform;
 var distance = 10.0;
 
 var xSpeed = 250.0;
@@ -6,6 +6,8 @@ var ySpeed = 120.0;
 
 var yMinLimit = -20;
 var yMaxLimit = 80;
+
+var mouseOffset = 50;
 
 private var x = 0.0;
 private var y = 0.0;
@@ -23,18 +25,18 @@ function Start () {
 }
 
 function LateUpdate () {
-    if (target) {
-        x += Input.GetAxis("Mouse X") * xSpeed * 0.02;
+    //if (target) {
+        x += (Input.GetAxis("Mouse X")-mouseOffset) * xSpeed * 0.02;
         y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02;
  		
  		y = ClampAngle(y, yMinLimit, yMaxLimit);
  		       
         var rotation = Quaternion.Euler(y, x, 0);
-        var position = rotation * Vector3(0.0, 0.0, -distance) + target.position;
+        //var position = rotation * Vector3(0.0, 0.0, -distance) + target.position;
         
         transform.rotation = rotation;
-        transform.position = position;
-    }
+        //transform.position = position;
+    //}
 }
 
 static function ClampAngle (angle : float, min : float, max : float) {
