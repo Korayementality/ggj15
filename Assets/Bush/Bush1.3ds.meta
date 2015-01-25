@@ -1,15 +1,13 @@
 fileFormatVersion: 2
-guid: 04f358334d7ad2749b1f847c50ea072d
+guid: 82efae2dec0412647915984b29d0d589
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
     100000: //RootNode
-    100002: default
     400000: //RootNode
-    400002: default
-    2300000: default
-    3300000: default
-    4300000: default
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: bush
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -30,7 +28,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: .100000001
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
