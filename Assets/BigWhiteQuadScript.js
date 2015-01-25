@@ -2,6 +2,8 @@
 
 var character : GameObject;
 var EndingTexture : GameObject;
+var EndingTexture2 : GameObject;
+
 
 function Start () {
 
@@ -44,12 +46,19 @@ function RotateInY() {
 
 function Blackout() {
 
-	RenderSettings.ambientlight = Color.black;
+	RenderSettings.ambientLight = Color.black;
 
 }
 
 function ShowEndingTexture() {
 
 	EndingTexture.SetActive(true);
+	Invoke("ShowEndingTexture2", 4);
+}
+
+function ShowEndingTexture2() {
+
+	EndingTexture.SetActive(false);
+	EndingTexture2.SetActive(true);
 
 }
