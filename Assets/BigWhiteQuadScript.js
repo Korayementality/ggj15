@@ -44,7 +44,7 @@ function RotateInY() {
 
 function Blackout() {
 
-	RenderSettings.ambientlight = Color.black;
+	RenderSettings.ambientLight = Color.black;
 
 }
 
